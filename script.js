@@ -63,7 +63,7 @@ constructor(canvas){
     this.height=canvas.height;
    
     this.particles=[];
-    this.numberOfparticle=200;
+    this.numberOfparticle=600;
     this.createParticle();
     this.mouse={
         x:0,
