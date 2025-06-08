@@ -16,7 +16,7 @@ class Ball{
 constructor(effect){
      this.effect=effect;
      
- this.radius=Math.floor(Math.random()*25+5);
+ this.radius=Math.floor(Math.random()*7+5);
      this.x=Math.floor(Math.random()*(this.effect.width-2*this.radius+1)+this.radius);
      this.y=Math.floor(Math.random()*(this.effect.height-2*this.radius+1)+this.radius);
     this.vx=Math.random()*4-2;
@@ -63,7 +63,7 @@ constructor(canvas){
     this.height=canvas.height;
    
     this.particles=[];
-    this.numberOfparticle=600;
+    this.numberOfparticle=200;
     this.createParticle();
     this.mouse={
         x:0,
